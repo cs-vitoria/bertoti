@@ -19,3 +19,20 @@ Trade-offs and Costs: How an organization makes decisions, based on the lessons 
 Comentários:
 
 O trecho analisa a necessidade de se pensar na programação a longo prazo, em como tornar a manutenção dos códigos após o uso em um processo sustentável tanto para a empresa que utiliza do sistema quanto para os profissionais que realizarão essa tarefa.
+
+
+Atividade 3: citar e explicar 3 exemplos de tradeoffs em software
+
+1. Zoom
+Trade-off: Facilidade de acesso e de uso x segurança
+Para crescer rápido e dominar o mercado de videoconferências, o Zoom priorizou a experiência do usuário, qualquer pessoa podia entrar em uma reunião com um único clique, sem necessidade de senha, criação de conta ou salas de espera, o que ocasionou no fenômeno do "Zoombombing" (invasores entrando em reuniões privadas para reproduzir conteúdos inadequados) e revelou fragilidades na criptografia da plataforma.
+https://www.sigmundsoftware.com/blog/zoom-security-issues-coronavirus/
+
+2.Power Apps
+Trade-off: Usabilidade na criação (low-code) x desempenho e flexibilidade do produto final
+A velocidade de desenvolvimento é alta e democrática, mas o produto final sofre limitações de usabilidade e desempenho para o usuário final, por conta da interface simples e do processamento ocorrer no cliente, em seu navegador ou dispositivo.
+
+3. Nubank
+Trade-off: Imutabilidade e rastreabilidade x escalabilidade de escrita e facilidade de operação
+Adotou o banco de dados Datomic, garantindo rastreabilidade total e segurança auditável nas transações do cliente. Em troca, abriu mão de uma infraestrutura simples, exigindo tecnologias específicas e gerenciamento contínuo do crescimento constante de dados.
+
